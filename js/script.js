@@ -23,7 +23,7 @@ function secondValue(secondValue){
         resFin = resFin/1000000; 
         tolMax = ((resFin/100)*tol)+resFin;
     tolMin = resFin-((resFin/100)*tol);
-        document.getElementById("resultado").innerHTML = ("Resistor é "+ resFin+ "MΩ com tolerancia de entre " +tolMin+ "MΩ e "+tolMax+"kΩ");
+        document.getElementById("resultado").innerHTML = ("Resistor é "+ resFin+ "MΩ com tolerancia de entre " +tolMin+ "MΩ e "+tolMax+"MΩ");
     }
     else{
         resFin = resFin;
